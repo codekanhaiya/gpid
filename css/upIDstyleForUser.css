@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    padding-top: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.card {
+    border-color: #03a9f4;
+    border-width: 2px;
+    /*max-height: 250px;*/
+    height:max-content;
+}
+
+.header {
+    /* border-bottom:2px solid #03a9f4; */
+    border-bottom: 2px solid #aa926391;
+}
+
+
+
+.logo {
+    float: left;
+}
+
+.logo>img {
+    width: 65px;
+}
+
+.college-name {
+    float: left;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+    color: maroon;
+    margin-left: 25px;
+}
+
+.imagepart {
+    /* background-color: rgba(170, 146, 99, 0.513); */
+    background: linear-gradient(135deg, rgb(170, 146, 99, 0.513)5%, rgb(255, 255, 255));
+    padding: 10px;
+    float: left;
+    border-radius: 0 0 0 5px;
+}
+.validation{
+    position: absolute;
+    padding-left:12px ;
+    display: block;
+    font-size: 10px;
+    color: #031bf4;
+    text-align: center;
+}
+.enroll {
+    font-size: 12px;
+}
+
+.img {
+    width: 80px;
+    height: 100px;
+    border: 1px solid rgb(206, 205, 205);
+    border-radius: 5px;
+    object-fit: cover;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+
+
+.stdDet {
+    float: left;
+    max-width: 235px;
+    padding-left: 10px;
+}
+
+.value1 {
+    font-size: 12px;
+    width: max-content;
+}
+
+.colon {
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #03a9f4;
+}
+
+.value2 {
+    font-size: 11px;
+    color: rgba(75, 74, 74, 0.808);
+}
+
+tr {
+    vertical-align: top;
+}
+
+
+#confetti-holder {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index:99;
+}
+
+@media screen and (max-width: 400px) {
+  *{
+    font-size: small;
+  }
+}
+
+@media print {
+    body {
+        display: none;
+    }
+}
