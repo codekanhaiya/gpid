@@ -3,6 +3,11 @@
 A lightweight, PHP-based web system to generate and print user ID cards with a secure admin dashboard and user interface. The project supports image uploads, ID previews, printing features, and role-based access.
 
 ---
+## 🔗 Live Demo  
+  Check out the live portfolio site with sleek UI and responsive design:  
+  [🌐 https://officialpglife.epizy.com/]
+
+---
 
 ## 📚 Table of Contents
 
